@@ -1,0 +1,107 @@
+//DAY 2:LIST 
+list is a mutable means we can change and madify and list ordered
+methods:
+var=[]
+1.append-we add at end of the list
+2.insert-insert the element at the particular position
+3.reverse-reverse the list using-1
+4.copy-copy the same list(
+5.sorting-it sort the elements in the list in ascending order
+6.pop-delete the element in the last 
+7.count=frequency(like elements)
+//aggreagate functions
+1.sum()
+2.min()
+3.max()
+4.count()
+
+// my_list=[1,2,3,4]
+>>> print(my_list)
+[1, 2, 3, 4]
+to remove[] we use(*my_list)
+o/p=1,2,3,4
+
+//my_list.append(999)
+>>> my_list.insert(80,7)
+>>> print(my_list)
+[1, 2, 3, 4, 999, 7]
+>>> print(*my_list)
+1 2 3 4 999 7
+//len 
+print(len(my_list)
+
+//pop
+my_list.pop(5)
+
+//(concatition)new_list=my_list+my_list2  adding
+>>> my_list2=[5,6,7,8]
+>>> print(my_list)
+[1, 2, 4, 7]
+>>> new_list=my_list+my_list2
+>>> print(new_list)
+[1, 2, 4, 7, 5, 6, 7, 8]
+
+//copy
+new_list=my_list.copy()
+new_list.pop()
+print(new_list)
+print(my_list)
+//count
+my_list=[1,2,3,4]
+cnt=my_list.count(2)
+or
+my_list[1,2,3,4]
+cnt=my_list.count(2)
+print(cnt)
+
+//sorting(quick sort and 
+my_list.sort()
+ my_list=[2,1,5,3,6,1]
+>>> my_list.sort()
+>>> print(my_list)
+[1, 1, 2, 3, 5, 6]
+//my_list=list(map(int,input().split(",")))
+map=more than one input
+split("")-default space sepator
+input-input type integer
+list=type casting
+1.using for loop print(1to 100)
+2.using for loop append(1to 100) in empty list
+3.find sum of all numbers in alist
+
+//area of traningle
+l=10
+b=43
+area=l*b
+print(area)
+
+//n=5
+k=3
+arr=[9,2,5,3,7]
+for i in range(n-k+1):
+    sub_arr=arr[i:i+k]
+sum=0
+for ind in range(1,k+1):
+    sum+=sub_arr[ind-1]*ind
+    print(sum)
+
+//n=5
+k=4
+arr=[1,2,3,4,5]
+ans=0
+for i in range(n-k+1):
+    sub_arr=arr[i:i+k]
+    print("find the scroe for the sub arr",sub_arr)
+sum=0
+for ind in range(1,k+1):
+    sum+=sub_arr[ind-1]*ind
+    print("sum is",sum)
+    print("score is",sum)
+
+
+
+
+
+
+
+
