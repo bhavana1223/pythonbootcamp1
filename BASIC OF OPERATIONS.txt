@@ -1,0 +1,102 @@
+BASIC OF OPERATIONS
+1.unary operator:single 
+2.arthametic ,logical,bitwise,assignment,ternary,relational 
+3.module:to reduce the input
+
+1.arthametic operation
+1.addtion
+2.sub
+3.mul
+4.div
+5.module
+
+
+>>> n1=int(input())
+10
+>>> n2=int(input())
+20
+>>> sum=n1+n2
+>>> print(sum)
+30
+>>> sum=n1-n2
+>>> print(sum)
+-10
+>>> sum=n1*n2
+>>> print(sum)
+200
+>>> print(n1+n2,n1-n2,n1*n2,n1/n2,n1%n2)
+30 -10 200 0.5 10
+>>> a=2
+>>> b=8
+>>> print(a**b)
+256
+import math
+print(math.pow(a,b)
+
+//logical operator
+ OR-one condition satisfies then it execute-||-condition stmt only
+AND-two condition should be satisifies (&&)
+
+
+>>> age=25
+>>> if (age>18 and age<25):
+...    print("only two wheelers")
+... elif(age>=24 and age<45):
+...     print("both two wheelers and four wheelers")
+... else:
+...      print("all")
+...
+both two wheelers and four wheelers
+
+//requriment person x goes to market he will buy 10apples ,2 dozen bananas-24,8 oranges the cost of each apple is 15 rupees,cost of each banana 4 rup,one orange 5rup.mother of mister x misses y she gave  700 rupees to x to buy all these some amount will left over with some amount.fruit vendor will not fool the kid ,find x cheated or not?
+
+//amount=700
+apple=150
+banana=96
+orange=40
+total=apple+banana+orange
+if(total<amount):
+  print("not cheated")
+else:
+    print("cheated")
+o/p=not cheated
+
+//cost-apple=15
+cost-banana=4
+cost_orange=5
+no_apples=int(input())
+print("enter no of apples")
+no_banana=int(input())
+print("enter no of banana")
+no_oranges=int(input())
+print("enter no of orange")
+ranges=int(input())
+print("enter the amount given by mother")
+amount_given=int(input())
+sum=(np_apples*cost_appeles)+
+
+//take input from user if it positive and even positive even positive odd-positive odd
+neg even
+n=int(input())
+if(n%2==0 and n>0):
+    print("positive and even")
+elif(n%2!==0 and n>0):
+    print("positive and odd")
+elif(n%2==0 and n<0):
+    print("enter the even negitive")
+ else(n%2!==0 and n>0):
+     print("enter the odd negitive")
+
+    
+
+mister z is elected for Olympic is participating in swimming competition only one winner is selected. mister x and y are friend of  mister z.x  is participating 
+badminton and y is participating in table tennis ,according to selection committee the requirements of badm player are 1.height 140cm,weight factor of 2 body fat <12%.acc to selection committee req for tennis are height min 118cm to 148cm.weight is the factor of the no medals won by mister z. body fact
+14%.acc to the previous history z participated in 14 games out which he is having success rate as 65%.write program to check mister x, y, z travel in same plane or not.
+
+mister y=badmation 
+height=140cm
+weight%2==0
+ 
+mister x=tennis
+h=118-148
+weight%7==0
